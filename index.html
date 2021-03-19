@@ -2,7 +2,7 @@
 
 <html> 
  <head>
-    <title>Processing.JS inside Webpages: Template</title> 
+    <title>Random cube</title> 
 </head>
  <body>
     <p align="center"> 
@@ -72,114 +72,114 @@
                 {   highestZNode = i;   }
             }
             
-            if ( highestZNode === 0 )
-            {
-                fill(224, 74, 74);
-                quad(this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[3][0],this.nodes[3][1],
-                    this.nodes[2][0],this.nodes[2][1]);
-                fill(72, 95, 242);
-                quad(this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[2][0],this.nodes[2][1],
-                    this.nodes[6][0],this.nodes[6][1],
-                    this.nodes[4][0],this.nodes[4][1]);
-                fill(235, 240, 77);
-                quad(this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[5][0],this.nodes[5][1],
-                    this.nodes[4][0],this.nodes[4][1]);
-            }
-            else if ( highestZNode === 1 )
-            {
-                fill(224, 74, 74);
-                quad(this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[4][0],this.nodes[4][1],
-                    this.nodes[5][0],this.nodes[5][1]);
-                fill(72, 95, 242);
-                quad(this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[3][0],this.nodes[3][1],
-                    this.nodes[7][0],this.nodes[7][1],
-                    this.nodes[5][0],this.nodes[5][1]);
-                fill(235, 240, 77);
-                quad(this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[2][0],this.nodes[2][1],
-                    this.nodes[3][0],this.nodes[3][1]);
-            }
-            else if ( highestZNode === 2 )
-            {
-                fill(224, 74, 74);
-                quad(this.nodes[2][0],this.nodes[2][1],
-                    this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[3][0],this.nodes[3][1]);
-                fill(72, 95, 242);
-                quad(this.nodes[2][0],this.nodes[2][1],
-                    this.nodes[3][0],this.nodes[3][1],
-                    this.nodes[7][0],this.nodes[7][1],
-                    this.nodes[6][0],this.nodes[6][1]);
-                fill(235, 240, 77);
-                quad(this.nodes[2][0],this.nodes[2][1],
-                    this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[4][0],this.nodes[4][1],
-                    this.nodes[6][0],this.nodes[6][1]);
-            }
-            else if ( highestZNode === 3 )
-            {
-                fill(224, 74, 74);
-                quad(this.nodes[3][0],this.nodes[3][1],
-                    this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[2][0],this.nodes[2][1]);
-                fill(72, 95, 242);
-                quad(this.nodes[3][0],this.nodes[3][1],
-                    this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[5][0],this.nodes[5][1],
-                    this.nodes[7][0],this.nodes[7][1]);
-                fill(235, 240, 77);
-                quad(this.nodes[3][0],this.nodes[3][1],
-                    this.nodes[2][0],this.nodes[2][1],
-                    this.nodes[6][0],this.nodes[6][1],
-                    this.nodes[7][0],this.nodes[7][1]);
-            }
-            else if ( highestZNode === 4 )
-            {
-                fill(224, 74, 74);
-                quad(this.nodes[4][0],this.nodes[4][1],
-                    this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[5][0],this.nodes[5][1]);
-                fill(72, 95, 242);
-                quad(this.nodes[4][0],this.nodes[4][1],
-                    this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[2][0],this.nodes[2][1],
-                    this.nodes[6][0],this.nodes[6][1]);
-                fill(235, 240, 77);
-                quad(this.nodes[4][0],this.nodes[4][1],
-                    this.nodes[5][0],this.nodes[5][1],
-                    this.nodes[7][0],this.nodes[7][1],
-                    this.nodes[6][0],this.nodes[6][1]);
-            }
-            else if ( highestZNode === 5 )
-            {
-                fill(224, 74, 74);
-                quad(this.nodes[3][0],this.nodes[3][1],
-                    this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[5][0],this.nodes[5][1],
-                    this.nodes[7][0],this.nodes[7][1]);
-                fill(72, 95, 242);
-                quad(this.nodes[4][0],this.nodes[4][1],
-                    this.nodes[0][0],this.nodes[0][1],
-                    this.nodes[1][0],this.nodes[1][1],
-                    this.nodes[5][0],this.nodes[5][1]);
-                fill(235, 240, 77);
-                quad(this.nodes[4][0],this.nodes[4][1],
-                    this.nodes[5][0],this.nodes[5][1],
-                    this.nodes[7][0],this.nodes[7][1],
-                    this.nodes[6][0],this.nodes[6][1]);
-            }
+	    if ( highestZNode === 0 )
+	    {
+		fill(224, 74, 74);
+		quad(this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[3][0],this.nodes[3][1],
+		     this.nodes[2][0],this.nodes[2][1]);
+		fill(72, 95, 242);
+		quad(this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[2][0],this.nodes[2][1],
+		     this.nodes[6][0],this.nodes[6][1],
+		     this.nodes[4][0],this.nodes[4][1]);
+		fill(235, 240, 77);
+		quad(this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[5][0],this.nodes[5][1],
+		     this.nodes[4][0],this.nodes[4][1]);
+	    }
+	    else if ( highestZNode === 1 )
+	    {
+		fill(235, 240, 77);
+		quad(this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[4][0],this.nodes[4][1],
+		     this.nodes[5][0],this.nodes[5][1]);
+		fill(72, 95, 242);
+		quad(this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[3][0],this.nodes[3][1],
+		     this.nodes[7][0],this.nodes[7][1],
+		     this.nodes[5][0],this.nodes[5][1]);
+		fill(224, 74, 74);
+		quad(this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[2][0],this.nodes[2][1],
+		     this.nodes[3][0],this.nodes[3][1]);
+	    }
+	    else if ( highestZNode === 2 )
+	    {
+		fill(224, 74, 74);
+		quad(this.nodes[2][0],this.nodes[2][1],
+		     this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[3][0],this.nodes[3][1]);
+		fill(235, 240, 77);
+		quad(this.nodes[2][0],this.nodes[2][1],
+		     this.nodes[3][0],this.nodes[3][1],
+		     this.nodes[7][0],this.nodes[7][1],
+		     this.nodes[6][0],this.nodes[6][1]);
+		fill(72, 95, 242);
+		quad(this.nodes[2][0],this.nodes[2][1],
+		     this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[4][0],this.nodes[4][1],
+		     this.nodes[6][0],this.nodes[6][1]);
+	    }
+	    else if ( highestZNode === 3 )
+	    {
+		fill(224, 74, 74);
+		quad(this.nodes[3][0],this.nodes[3][1],
+		     this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[2][0],this.nodes[2][1]);
+		fill(72, 95, 242);
+		quad(this.nodes[3][0],this.nodes[3][1],
+		     this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[5][0],this.nodes[5][1],
+		     this.nodes[7][0],this.nodes[7][1]);
+		fill(235, 240, 77);
+		quad(this.nodes[3][0],this.nodes[3][1],
+		     this.nodes[2][0],this.nodes[2][1],
+		     this.nodes[6][0],this.nodes[6][1],
+		     this.nodes[7][0],this.nodes[7][1]);
+	    }
+	    else if ( highestZNode === 4 )
+	    {
+		fill(224, 74, 74);
+		quad(this.nodes[4][0],this.nodes[4][1],
+		     this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[5][0],this.nodes[5][1]);
+		fill(72, 95, 242);
+		quad(this.nodes[4][0],this.nodes[4][1],
+		     this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[2][0],this.nodes[2][1],
+		     this.nodes[6][0],this.nodes[6][1]);
+		fill(235, 240, 77);
+		quad(this.nodes[4][0],this.nodes[4][1],
+		     this.nodes[5][0],this.nodes[5][1],
+		     this.nodes[7][0],this.nodes[7][1],
+		     this.nodes[6][0],this.nodes[6][1]);
+	    }
+	    else if ( highestZNode === 5 )
+	    {
+		fill(72, 95, 242);
+		quad(this.nodes[3][0],this.nodes[3][1],
+		     this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[5][0],this.nodes[5][1],
+		     this.nodes[7][0],this.nodes[7][1]);
+		fill(235, 240, 77);
+		quad(this.nodes[4][0],this.nodes[4][1],
+		     this.nodes[0][0],this.nodes[0][1],
+		     this.nodes[1][0],this.nodes[1][1],
+		     this.nodes[5][0],this.nodes[5][1]);
+		fill(224, 74, 74);
+		quad(this.nodes[4][0],this.nodes[4][1],
+		     this.nodes[5][0],this.nodes[5][1],
+		     this.nodes[7][0],this.nodes[7][1],
+		     this.nodes[6][0],this.nodes[6][1]);
+	    }
         };
 
         // Rotate X axis
