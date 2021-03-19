@@ -23,7 +23,7 @@
         frameRate(30);
         
         // ProgramCodeGoesHere
-        var edgeSize = 20;
+        var edgeSize = 15;
         var canvasSize = 1400;
         var numCube = 40;
 
@@ -35,13 +35,13 @@
             this.speed = random(2,10);
             stroke(0,0,0);
             this.nodes = [[this.x-edgeSize, this.y-edgeSize, this.z+edgeSize],
-                        [this.x+edgeSize, this.y-edgeSize, this.z+edgeSize],
-                        [this.x-edgeSize, this.y+edgeSize, this.z+edgeSize],
-                        [this.x+edgeSize, this.y+edgeSize, this.z+edgeSize],
-                        [this.x-edgeSize, this.y-edgeSize, this.z-edgeSize],
-                        [this.x+edgeSize, this.y-edgeSize, this.z-edgeSize],
-                        [this.x-edgeSize, this.y+edgeSize, this.z-edgeSize],
-                        [this.x+edgeSize, this.y+edgeSize, this.z-edgeSize]];
+                          [this.x+edgeSize, this.y-edgeSize, this.z+edgeSize],
+                          [this.x-edgeSize, this.y+edgeSize, this.z+edgeSize],
+                          [this.x+edgeSize, this.y+edgeSize, this.z+edgeSize],
+                          [this.x-edgeSize, this.y-edgeSize, this.z-edgeSize],
+                          [this.x+edgeSize, this.y-edgeSize, this.z-edgeSize],
+                          [this.x-edgeSize, this.y+edgeSize, this.z-edgeSize],
+                          [this.x+edgeSize, this.y+edgeSize, this.z-edgeSize]];
 
 
         };
